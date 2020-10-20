@@ -1,0 +1,100 @@
+$grid-breakpoints: (
+  sm: 554px,
+  md: 768px,
+  lg: 1024px,
+);
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap');
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+.navbar-expand-lg{
+
+  background-color: black;
+
+}
+
+.navbar-brand img {
+  margin-left: 20px;
+  color: $color-header;
+}
+.text-benny {
+  margin-top: 15px;
+  color: $color-header;
+}
+
+.nav-item {
+  color: $color-header;
+}
+.banner-bg {
+  width: 100%;
+  height: 900px;
+  padding: 0;
+  margin-bottom: 50px;
+  position: relative;
+  font-family: 'Love Ya Like A Sister', cursive;
+
+  > div {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+  }
+}
+
+.rounded-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3f2f2;
+}
+h2{
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+.text-icon {
+  text-align: center;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.header-bg-purple {
+  background-color: $color-header;
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: white;
+  padding-top: 40px;
+  height: 100%;
+}
+
+.card-desk {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 20px;
+  align-items: baseline;
+}
+
+.btn-primary {
+  width: 150px;
+
+  > .fas {
+    margin-left: 10px;
+    align-items: center;
+    height: 10px;
+  }
+
+  .fas:hover {
+    background-color: greenyellow;
+    color: white;
+  }
+}
+form{
+   margin: 0 auto;
+}
+
+.footer{
+ height: 50px;
+      >span{
+      float: right;
+      padding-right: 50px ;
+      margin-top: 15px;
+  }
+}
